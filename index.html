@@ -1,7 +1,113 @@
-<html>
-  <body>
-    <h1>Your Name Here</h1>
-    <h2> Your student code here</h2>
-    </h2>อยากเมียบ้านแล้ว</h2>
-  </body>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luxury Shoes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    .advertisement {
+      background-color: #d4af37;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product h3 {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .product p {
+      color: #d4af37;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Luxury Shoes Logo">
+  </header>
+
+  <div class="advertisement">
+    โปรโมชั่นพิเศษ! ซื้อครบ 10,000 บาท รับส่วนลดทันที 15%
+  </div>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="shoe1.jpg" alt="รองเท้า 1">
+      <h3>รองเท้าหนังแท้ รุ่น Classic</h3>
+      <p>฿12,900</p>
+    </div>
+    <div class="product">
+      <img src="shoe2.jpg" alt="รองเท้า 2">
+      <h3>รองเท้าหนังงู รุ่น Elite</h3>
+      <p>฿18,500</p>
+    </div>
+    <div class="product">
+      <img src="shoe3.jpg" alt="รองเท้า 3">
+      <h3>รองเท้าหนังวัว รุ่น Prestige</h3>
+      <p>฿15,200</p>
+    </div>
+    <div class="product">
+      <img src="shoe4.jpg" alt="รองเท้า 4">
+      <h3>รองเท้าหนังกลับ รุ่น Royal</h3>
+      <p>฿13,800</p>
+    </div>
+    <div class="product">
+      <img src="shoe5.jpg" alt="รองเท้า 5">
+      <h3>รองเท้าหนังเงา รุ่น Supreme</h3>
+      <p>฿20,000</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Luxury Shoes Co., Ltd. All rights reserved.
+  </footer>
+
+</body>
 </html>
